@@ -15,6 +15,7 @@ export function useTelegram() {
 	return {
 		onClose,
 		tg,
+		onToggleButton,
 		user: tg.InitDataUnsafe?.user,
 	}
 }
